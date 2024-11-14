@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="icon" href="assets/checkmark.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "S74Gp5015i6bp0WlD",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <!-------------- HEADER ------------------>
+    <header class="header">
+        <a href="#home" class="logo">ANANDH
+            <span>KUMAR</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#project"> Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!---------------- /HEADER ---------------->
+
+    <!---------------- HOME   ----------------->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <br><span>Anandh Kumar</span></h1>
+            <h3 class="text-animation">I'm a <span></span>
+            </h3>
+            <p>Motivated and self-driven Junior Frontend Developer with proficiency in HTML, CSS, Bootstrap, JavaScript, and React.
+                Experienced in building responsive user interfaces and eager to contribute to real-time projects using
+                modern development practices. Seeking an opportunity to apply and expand my frontend development and
+                agile methodology expertise while learning from senior professionals in a collaborative environment.
+            </p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/anandh-kumar-b062b8301/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/ANANDH-KUMAR-R"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/anandh_2001/?utm_source=qr&igsh=MXh0MmNmajNyMHdtdg%3D%3D#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="Anandh_VC.pdf" target="_blank" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="img/PHOTO.jpg" alt="">
+        </div>
+    </section>
+    <!---------------- /HOME   ---------------->
+
+    <!---------------- EDUCATION   ------------>
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020</div>
+                <div class="timeline-content">
+                    <h3>High School - PUC </h3>
+                    <p>Kongunadu Matric Higher Secondary School | 70.16%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3>College - Bachelor of Computer Applications </h3>
+                    <p>KS Rangasamy College of Arts and Science | 74.14%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Course - Mern FullStack Technology</h3>
+                    <p>Institution: Jspiders Bengaluru-BTM (Offline) <br>
+                        Expected Completion: November 2024
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!---------------- /EDUCATION   ----------->
+
+    <!---------------- sKILLS   --------------->
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>HTML <img src="./assets/HTML.png" alt=""></h4>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>CSS <img src="./assets/CSS.png" alt=""></h4>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>JavaScript <img src="./assets/JavaScript.png" alt=""></h4>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>React <img src="./assets/React.png" alt=""></h4>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Bootstrap <img src="./assets/Bootstrap.png" alt=""></h4>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>MongoDB <img src="./assets/MongoDb.png" alt=""></h4>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Nodejs <img src="./assets/Node.png" alt=""></h4>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>GitHub <img src="./assets/GitHub.png" alt=""></h4>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-info">
+                    <h4>Git <img src="./assets/Git.png" alt=""></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------- /SKILLS   ------------->
+
+    <!---------------- PROJECT   -------------->
+    <section class="project" id="project">
+        <div class="project-box">
+            <h2 class="heading ">Project </h2>
+
+            <div class="wrapper">
+                <a href="https://anandh-kumar-r.github.io/Book-My-Show/" style="text-decoration: none; color: white;">
+                <div class="project-item ">
+                    <img alt="Portrait of Marilyn" class="" height="100" src="img/BookMyShow.png" width="100" />
+                    <h2>Book My Show</h2>
+                    <div class="rating ">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <!-- <i class='bx bxs-star' id="star"></i> -->
+                        <!-- <i class='bx bxs-star' id="star"></i> -->
+                    </div>
+                    <p>Book My Show Clone Website <strong>Technologies Used:</strong> HTML, CSS <br>
+                        <strong>Description:</strong> Discover the latest movie releases and
+                        upcoming blockbusters. Our curated list provides all the essential details like genre, rating,
+                        and showtimes to help you choose the perfect movie for your day.
+                    </p>
+                </div></a>
+                <a href="https://anandh-kumar-r.github.io/NammaYatri/" style="text-decoration: none; color: white;">
+                <div class="project-item " >
+                    <img alt="Portrait of Marilyn" class=" " height="100" src="img/nammaYatri.png" width="100" />
+                    <h2>NammaYatri</h2>
+                    <div class="rating ">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                    </div>
+                    <p>NammaYatri <strong>Technologies Used:</strong> HTML, CSS <br> <strong>Description:</strong>
+                        NammaYatri offers budget-friendly travel options for daily commuters, ensuring a seamless and
+                        cost-effective journey across the city. Whether you're headed to work, school, or leisure spots,
+                        our services make it easier to travel on a budget.
+                    </p>
+                </div></a>
+
+                <div class="project-item " style="cursor:context-menu;">
+                    <img alt="Portrait of Marilyn" class="w-16 h-16 " height="100" src="img/Thancos.png" width="100" />
+                    <h2>Thancos Icecream</h2>
+                    <div class="rating ">
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <i class='bx bxs-star' id="star"></i>
+                        <!-- <i class='bx bxs-star' id="star"></i> -->
+                        <!-- <i class='bx bxs-star' id="star"></i> -->
+                    </div>
+                    <p>Thancos Icecream <strong>Technologies Used:</strong> HTML, CSS <br> <strong>Description:</strong>
+                        Power of natural ingredients. Our ice creams are crafted using only the finest, handpicked fruits
+                        and ingredients that are 100% natural, without any artificial additives or preservatives. Each
+                        scoop is a taste of nature’s best.
+                    </p>
+                    <a style="text-decoration: none; color: white;" href="https://github.com/ANANDH-KUMAR-R"
+                        target="_blank"><img src="assets/GitHub.png" style="height: 30px; width: 30px;" alt="">
+                        <sup><sup><sup> OPEN</sup></sup></sup></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!---------------- /PROJECT   ------------->
+
+    <!---------------- CONTACT   ------------->
+    <section class="contact" id="contact">
+        <h2 class="heading"> Contact <span>Me</span></h2>
+        <form id="work-request-form" class="work-request">
+            <div class="block">
+                <div class="input-box">
+                    <input id="from_name" type="text" placeholder="Full Name">
+                    <input id="from_email" type="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input id="from_number" type="tel" placeholder="Phone Number">
+                    <input id="subject" type="text" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+    <!---------------- /CONTACT   ------------->
+
+    <!---------------- footer ---------------->
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/anandh-kumar-b062b8301/"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="">FQA</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+            <li>
+                <a href="">Testimonials</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            @ ANANDH <span> KUMAR </span> | All Rights Reserved
+        </p>
+    </footer>
+    <!---------------- /footer -------------->
+    <script src="script.js"></script>
+</body>
+
+</html>
